@@ -1,8 +1,8 @@
 import Axios from 'axios'
 
 const axios = Axios.create({
-  // baseURL: 'https://classi-api.herokuapp.com/',
-  baseURL: 'http://localhost:3000/',
+  baseURL: 'https://classi-ba5or.ondigitalocean.app/',
+  // baseURL: 'http://localhost:3000/',
   timeout: 10000
 })
 
